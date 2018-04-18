@@ -94,7 +94,6 @@ justify-content: flex-start;
 }
 .circle_text{
 	margin-top: 20px;
-	font-weight: 600px;
 	padding-left: 20px;
 	font-family: tahoma;
 }
@@ -139,7 +138,6 @@ footer ul li a{
 }
 .call_text{
 	font-size: 20px;
-	font-color:white;
 	margin-left: 10px;
 }
 .call_list li{
@@ -474,11 +472,11 @@ label{
 	font-weight: bold;
 }
 .main_form input[type=text]{
-width: 95%;
+width: 100%;
 padding: 12px;
 }
 input[type=email]{
-width:95%;
+width:100%;
 padding: 12px;
 }
 textarea{
@@ -492,7 +490,7 @@ input:hover{
 border-color: black; 
 }
 
-.lbl{
+.lbl{					/*https://www.w3schools.com/howto/howto_css_responsive_form.asp*/
 	float: left;
 	width: 25%;
 	margin-top: 20px;
@@ -593,8 +591,6 @@ margin:10px;
 }
 .fb_icon,.gmail_icon,.git_icon,.twit_icon,.link_icon,.insta_icon{
  	position: relative;
-	top: 1;
-	right: 2;
 	background: #998;
 }
 .fa-google-plus-square:hover{
@@ -609,7 +605,7 @@ margin:10px;
 /*social css till here*/
 /*mobile responsiveness from here*/
 /*for screen size smaller than 480px(SMARTPHONES)*/
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 480px){
 	body{
 		margin: 0;
 		padding: 0;
@@ -673,7 +669,7 @@ nav ul li{
 	opacity: 0.7;
 }
 .third{
-		width: 50px;
+	width: 50px;
 	height: 50px;
 	border:1px solid black;
 	border-radius: 50%;
@@ -685,7 +681,7 @@ nav ul li{
 	opacity: 0.7;
 }
 .fourth{
-		width: 50px;
+	width: 50px;
 	height: 50px;
 	border:1px solid black;
 	border-radius: 50%;
@@ -714,7 +710,6 @@ display: inline-block;
 .call_text{
 	display: inline-block;
 	font-size: 20px;
-	font-color:white;
 	margin-left: 10px;
 }
 .foot_folo{
@@ -743,26 +738,20 @@ display: inline-block;
 label{
 	padding-left: 1px;
 }
-iframe{
-	width:280px;
-	height:230px;
-	border:0;
-	border-radius: 10px 10px;
-}
 .main_form input[type=text]{
-width: 80%;
+width: 100%;
 padding:10px;
-margin-left: 28px;
+margin-left: 35px;
 }
 input[type=email]{
-width: 80%;
+width: 100%;
 padding: 10px;
-margin-left:28px;
+margin-left: 35px;
 }
 textarea{
 	height: 100px;
-	width: 90%;
-	margin-left: 28px;
+	width:90%;
+	margin-left: 35px;
 }
 .sbt{
 	float: right;
@@ -775,8 +764,17 @@ textarea{
 	margin-right: 1px;
 	margin-left: 15px;
 }
-.mapp,.map_text{
-	margin-left: 25px;
+.mapp{
+	margin-left: 40px;
+}
+.map_text{
+	margin-left: 40px;
+}
+iframe{
+	width:150px;
+	height:230px;
+	border:0;
+	border-radius: 10px 10px;
 }
 
 
@@ -1028,7 +1026,6 @@ nav ul li{
 }
 .call_text{
 	font-size: 20px;
-	font-color:white;
 	margin-left: 10px;
 }
 .call_list li{
@@ -1065,26 +1062,17 @@ nav ul li{
 label{
 	padding-left: 1px;
 }
-iframe{
-	width:280px;
-	height:230px;
-	border:0;
-	border-radius: 10px 10px;
-}
 .main_form input[type=text]{
-width: 80%;
+width: 100%;
 padding:10px;
-margin-left: 28px;
 }
 input[type=email]{
-width: 80%;
+width: 100%;
 padding: 10px;
-margin-left:28px;
 }
 textarea{
 	height: 100px;
-	width: 90%;
-	margin-left: 28px;
+	width: 100%;
 }
 .sbt{
 	float: right;
@@ -1099,6 +1087,12 @@ textarea{
 }
 .mapp,.map_text{
 	margin-left: 25px;
+}
+iframe{
+	width:250px;
+	height:230px;
+	border:0;
+	border-radius: 10px 10px;
 }
 
 
