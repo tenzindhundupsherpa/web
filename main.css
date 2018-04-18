@@ -33,7 +33,7 @@ nav ul li a:hover{
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 100%;
-	height: 450px;
+	height: 100%;
 }
 .section_image{
 	margin-left: 20%;
